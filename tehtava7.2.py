@@ -7,4 +7,5 @@ while(nimi!=''):
     else:
         print("Uusi nimi")
     lista.add(nimi)
-print (lista)
+for nimi in lista:
+    print (nimi)
