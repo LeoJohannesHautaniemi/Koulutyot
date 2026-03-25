@@ -16,13 +16,11 @@ class Auto:
             self.nopeus=self.huippunopeus
     def kulje(self, tunnit=1):
         self.matka=self.nopeus*tunnit+self.matka
-random.randint(1,11)
 while(len(kilpailijat)<10):
     rekisterinumerovalikappale=rekisterinumerovalikappale+1
     kisaaja=Auto(rekisterinumerovalikappale)
     kilpailijat.append(kisaaja)
 while (kisaaja.matka<10000):
-    for kisaaja in kilpailijat:
         if(kisaaja.matka<10000):
             kisaaja.kiihdyta(random.randint(-10,15))
             kisaaja.kulje(1)
