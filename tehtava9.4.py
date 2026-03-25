@@ -26,6 +26,6 @@ while (kisaaja.matka<10000):
         if(kisaaja.matka<10000):
             kisaaja.kiihdyta(random.randint(-10,15))
             kisaaja.kulje(1)
-            print(kisaaja.matka)
 for kisaaja in kilpailijat:
     print(f"{kisaaja.rekisteri}, huippunopeus on {kisaaja.huippunopeus}km/h, kuljettu matka on {kisaaja.matka}km/h, nopeus maalissa on {kisaaja.nopeus}km/h.")
+##en tiedä onko tämä haluttu "selkeä taulukku", kaikki muut tietämäni rakkaisut taulukkoon käyttäisivät ulkoisia kirjastoja
