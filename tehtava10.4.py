@@ -42,12 +42,11 @@ while(len(kilpailijat)<10):
 Suuriromuralli=Kilpailu("Suuri romuralli",8000,kilpailijat)
 
 while Suuriromuralli.kilpailu_ohi()==False:
-        for kisaaja in kilpailijat:
-            if(kisaaja.matka < Suuriromuralli.pituus):
-                Suuriromuralli.tunti_kuluu()
-                tungit=tungit+1
-            if tungit % 10:
-                Suuriromuralli.tulosta_tilanne()
+    if(kisaaja.matka < Suuriromuralli.pituus):
+        Suuriromuralli.tunti_kuluu()
+        tungit=tungit+1
+        if tungit % 10:
+            Suuriromuralli.tulosta_tilanne()
 if Suuriromuralli.kilpailu_ohi:
     print("Ohi on")
     Suuriromuralli.tulosta_tilanne()

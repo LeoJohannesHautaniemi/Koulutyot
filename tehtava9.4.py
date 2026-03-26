@@ -21,6 +21,7 @@ while(len(kilpailijat)<10):
     kisaaja=Auto(rekisterinumerovalikappale)
     kilpailijat.append(kisaaja)
 while (kisaaja.matka<10000):
+    for kisaaja in kilpailijat:
         if(kisaaja.matka<10000):
             kisaaja.kiihdyta(random.randint(-10,15))
             kisaaja.kulje(1)
