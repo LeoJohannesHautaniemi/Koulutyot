@@ -1,0 +1,31 @@
+body{
+    background-color: pink;
+    font-family: "Comic Sans MS",Verdana,SansSerif;
+}
+#keskitys {
+    padding: 200px;
+  width: 10%;
+  margin: 0 auto;
+}
+nav{
+    line-height: 50px;
+    width: 100%;
+    position: fixed;
+    background: aqua;
+}
+#ihatethishit{
+    width: 10%;
+    padding: 40px;
+    margin: 0 auto;
+
+}
+nav a:hover{
+    background-color: brown;}
+ .articulator {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+article{
+    display: inline;
+}
